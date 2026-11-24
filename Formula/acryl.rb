@@ -1,4 +1,3 @@
-# The acryl command: ACRYL Control Center in a terminal, a window or the browser (acryl --tui | --gui | --web).
 class Acryl < Formula
   desc "Build agentic apps from plugins: ACRYL Control Center and its launcher"
   homepage "https://acryl.dev"
@@ -15,5 +14,6 @@ class Acryl < Formula
 
   test do
     assert_match version.to_s, shell_output("#{bin}/acryl --version")
+    assert_match "ACRYL Control Center", shell_output("#{bin}/acryl --help")
   end
 end

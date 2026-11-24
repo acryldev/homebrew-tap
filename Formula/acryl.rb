@@ -1,8 +1,8 @@
 class Acryl < Formula
   desc "Build agentic apps from plugins: ACRYL Control Center and its launcher"
   homepage "https://acryl.dev"
-  url "https://registry.npmjs.org/acryl/-/acryl-0.3.8.tgz"
-  sha256 "b24fa91b6bea7acaebd4e38b37310c34c618716f94321692d79ca9e47bf83765"
+  url "https://registry.npmjs.org/acryl/-/acryl-0.3.9.tgz"
+  sha256 "33d6bdf5a18d70c4b1a9dc77a0fa742c746918c31a831dbaf3cc6d52d39ab39e"
   license "MIT"
 
   depends_on "node"
